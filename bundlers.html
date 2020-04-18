@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+    <title>Module Bundlers</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d09f9128e6.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+
+<body class="is-preload" onLoad="readyB();">
+    <div id="page-wrapper">
+
+        <div id="header">
+
+            <h1><a href="index.html" id="logo">Desarrollo Front-End</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+
+                    <li class="current"><a href="bundlers.html">Module Bundlers <i class="fas fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="parcel.html#html">Parcel</a></li>
+                            <li><a href="#">Webpack</a></li>
+                            <li><a href="#">Rollup</a></li>
+                            <li><a href="#">Fusebox</a></li>
+                        </ul>
+                    </li>
+                     <li><a href="preprocesadores.html">Preprocesadores <i class="fas fa-caret-down"></i></a>
+                     <ul>
+                            <li><a href="postcss.html">PostCSS</a></li>
+                            <li><a href="#">TypeScript</a></li>
+                            <li><a href="#">SASS/SCSS</a></li>
+                            <li><a href="#">Pug</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="lenguajes.html">Lenguajes de front-end <i class="fas fa-caret-down"></i></a>
+                        <ul>
+                         <li><a href="html.html">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">Javascript</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+        <section class="wrapper style1">
+            <div class="container">
+                <div class="row gtr-200">
+                    <div class="col-8 col-12-narrower">
+                        <div id="content">
+
+
+                            <article>
+                                <header>
+                                    <h2>Module Bundlers</h2>
+                                    <p>¿Para qué sirven?</p>
+                                </header>
+
+                                <span class="image featured" id="bundle1"><img src="images/bundle1.png"/></span>
+                                <span class="image featured" id="bundle2"><img src="images/bundle2.png"/></span>
+
+                                <a class="button boton" onClick="Bundle();">Ejecutar Bundle</a>
+
+                                <p>Los module bundlers son herramientas front-end que permiten a los desarrolladores agrupar archivos de scripts y estilos para una mayor optimización de sus páginas. Además, en un entorno de desarrollo, permite lanzar un servidor de desarrollo y monitorizar los cambios en los archivos para refrescar el navegador automáticamente.</p>
+
+                                <h3>¿Por qué es necesario implementar un Module Bundler?</h3>
+                                <p>En primer lugar, ayuda a gestionar las relaciones de dependencia de nuestro código, ya que los módulos se cargarán siguiendo este orden de dependencia. También permitirá optimizar imágenes, código CSS y demás assets.</p>
+
+                                <p>Las tareas que automatiza un module bundler pueden variar en función del entorno de destino de nuestra aplicación. Actualmente, los module bundlers realizan estas tareas de forma transparente al usuario, aunque permiten la configuración para casos especiales.</p>
+                            </article>
+
+                        </div>
+                    </div>
+                    <div class="col-4 col-12-narrower">
+                        <div id="sidebar">
+                            <section>
+                                <h3>Algunos Module Bundlers</h3>
+                                <ul class="links">
+                                    <li><a href="parcel.html">Parcel</a></li>
+                                    <li><a href="#">Webpack</a></li>
+                                    <li><a href="#">Rollup</a></li>
+                                    <li><a href="#">Fusebox</a></li>
+                                </ul>
+
+
+
+                            </section>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+
+</body></html>

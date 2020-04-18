@@ -1,0 +1,11 @@
+https://pablomagaz.com/blog/empaquetando-aplicaciones-con-parcel
+
+https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2
+
+https://parceljs.org/
+
+https://www.slideshare.net/LearnByWatch/preprocessor
+
+https://webdesign.tutsplus.com/tutorials/postcss-deep-dive-what-you-need-to-know--cms-24535
+
+https://khalilstemmler.com/blogs/typescript/node-starter-project/
