@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d09f9128e6.js" crossorigin="anonymous"></script>
-        <script>
-                
+    <script>
         function readyC() {
             document.getElementById("compile2").style.display = "none";
             document.getElementById("compile1").style.display = "block";
@@ -31,7 +30,8 @@
 
         <div id="header">
 
-            <h1><a href="index.html" id="logo">Desarrollo Front-End</a></h1>
+            <h1><a href="index.html" id="logo">Desarrollo Front-End<em> ~ Natalia García</em><img id="imlogo" src="images/logo.png" alt="logo de la web"> </a>
+            </h1>
             <nav id="nav">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -78,7 +78,7 @@
                                     <p>¿Para qué sirven?</p>
                                 </header>
 
-                                <span class="image featured"><img src="images/preprocessor.jpg" alt="" /></span>
+                                <span class="image featured"><img src="images/preprocessor.jpg" alt="el código pasa por el preprocesador y después por el compilador" /></span>
 
                                 <p>Los preprocesadores son herramientas que transforman diversos lenguajes de código en HTML, CSS o JavaScript, de forma que el navegador pueda comprenderlos. También permiten adaptar versiones modernas de un lenguaje para garantizar su adaptación a cualquier navegador.</p>
 
@@ -92,11 +92,11 @@
 
                                 <h3>En la práctica:</h3>
 
-                                <span class="image featured" id="compile1"><img src="images/compile1.jpg"/></span>
-                                <span class="image featured" id="compile2"><img src="images/compile2.png" /></span>
-
-                                <a class="button boton" onClick="Compile();">Preprocesar</a>
-
+                                <span class="image featured" id="compile1"><img src="images/compile1.jpg" alt="scss a compilador y a css"/></span>
+                                <span class="image featured" id="compile2"><img src="images/compile2.png" alt="css al parser y a ejecución"/></span>
+                                <div class="centrarcontent">
+                                    <a onClick="Compile();"><input type="button" value="Preprocesar"></a>
+                                </div>
                             </article>
 
                         </div>
@@ -106,10 +106,10 @@
                             <section>
                                 <h3>Algunos Preprocesadores</h3>
                                 <ul class="links">
-                                    <li><a href="postcss.html">PostCSS</a></li>
-                                    <li><a href="#">TypeScript</a></li>
-                                    <li><a href="#">SASS/SCSS</a></li>
-                                    <li><a href="#">Pug</a></li>
+                                    <li><a href="postcss.html"><img class="miniatura margen" src="images/postcsspeq.jpg">PostCSS</a></li>
+                                    <li><a href="#"><img class="miniatura margen" src="images/typescript.png" alt="logo de Typescript">TypeScript</a></li>
+                                    <li><a href="#"><img class="miniatura margen" src="images/sass.png" alt="logo de Sass">SASS/SCSS</a></li>
+                                    <li><a href="#"><img class="miniatura margen" src="images/pug.png" alt="logo de Pug">Pug</a></li>
                                 </ul>
 
 
@@ -121,6 +121,22 @@
                 </div>
             </div>
         </section>
+
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+
+                    <section class="col-6 col-12-narrower">
+                        <h3 class="centrarcontent">Desarrollo Front-End</h3>
+                    </section>
+                    <section class="col-6 col-12-narrower">
+                        <img id="imfooter" alt="ordenador y escritorio dentro de bocadillo" src="images/footer.png"><br>
+                        <img id="guy" alt="hombre hablando por teléfono" src="images/guytalking.png">
+                    </section>
+                </div>
+            </div>
+
+        </div>
 
     </div>
 

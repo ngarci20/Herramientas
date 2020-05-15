@@ -1,14 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+
+<head>
     <title>Module Bundlers</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d09f9128e6.js" crossorigin="anonymous"></script>
-        <script>
-                
+    <script>
         function readyB() {
             document.getElementById("bundle1").style.display = "block";
             document.getElementById("bundle2").style.display = "none";
@@ -30,7 +30,8 @@
 
         <div id="header">
 
-            <h1><a href="index.html" id="logo">Desarrollo Front-End</a></h1>
+            <h1><a href="index.html" id="logo">Desarrollo Front-End<em> ~ Natalia García</em><img id="imlogo" src="images/logo.png" alt="logo de la web"> </a>
+            </h1>
             <nav id="nav">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -43,8 +44,8 @@
                             <li><a href="#">Fusebox</a></li>
                         </ul>
                     </li>
-                     <li><a href="preprocesadores.html">Preprocesadores <i class="fas fa-caret-down"></i></a>
-                     <ul>
+                    <li><a href="preprocesadores.html">Preprocesadores <i class="fas fa-caret-down"></i></a>
+                        <ul>
                             <li><a href="postcss.html">PostCSS</a></li>
                             <li><a href="#">TypeScript</a></li>
                             <li><a href="#">SASS/SCSS</a></li>
@@ -53,7 +54,7 @@
                     </li>
                     <li><a href="lenguajes.html">Lenguajes de front-end <i class="fas fa-caret-down"></i></a>
                         <ul>
-                         <li><a href="html.html">HTML</a></li>
+                            <li><a href="html.html">HTML</a></li>
                             <li><a href="#">CSS</a></li>
                             <li><a href="#">Javascript</a></li>
                         </ul>
@@ -77,10 +78,11 @@
                                     <p>¿Para qué sirven?</p>
                                 </header>
 
-                                <span class="image featured" id="bundle1"><img src="images/bundle1.png"/></span>
-                                <span class="image featured" id="bundle2"><img src="images/bundle2.png"/></span>
-
-                                <a class="button boton" onClick="Bundle();">Ejecutar Bundle</a>
+                                <span class="image featured" id="bundle1" alt="diferentes etiquetas de script"><img src="images/bundle1.png" /></span>
+                                <span class="image featured" id="bundle2" alt="scripts agrupados en una sola etiqueta"><img src="images/bundle2.png" /></span>
+                                <div class="centrarcontent">
+                                    <a onClick="Bundle();"><input class="boton" type="button" value="Ejecutar Bundle"></a>
+                                </div>
 
                                 <p>Los module bundlers son herramientas front-end que permiten a los desarrolladores agrupar archivos de scripts y estilos para una mayor optimización de sus páginas. Además, en un entorno de desarrollo, permite lanzar un servidor de desarrollo y monitorizar los cambios en los archivos para refrescar el navegador automáticamente.</p>
 
@@ -97,10 +99,10 @@
                             <section>
                                 <h3>Algunos Module Bundlers</h3>
                                 <ul class="links">
-                                    <li><a href="parcel.html">Parcel</a></li>
-                                    <li><a href="#">Webpack</a></li>
-                                    <li><a href="#">Rollup</a></li>
-                                    <li><a href="#">Fusebox</a></li>
+                                    <li><a href="parcel.html"><img class="miniatura" src="images/parcelmin.png" alt="logo de Parcel">Parcel</a></li>
+                                    <li><a href="#"><img class="miniatura" src="images/webpack.png" alt="logo de Webpack">Webpack</a></li>
+                                    <li><a href="#"><img class="miniatura" src="images/rollup.png" alt="logo de Rollup">Rollup</a></li>
+                                    <li><a href="#"><img class="miniatura" src="images/fusebox.png" alt="logo de Fusebox">Fusebox</a></li>
                                 </ul>
 
 
@@ -112,7 +114,21 @@
                 </div>
             </div>
         </section>
+        <div id="footer">
+            <div class="container">
+                <div class="row">
 
+                    <section class="col-6 col-12-narrower">
+                        <h3 class="centrarcontent">Desarrollo Front-End</h3>
+                    </section>
+                    <section class="col-6 col-12-narrower">
+                        <img id="imfooter" alt="ordenador y escritorio dentro de bocadillo" src="images/footer.png"><br>
+                        <img id="guy" alt="hombre hablando por teléfono" src="images/guytalking.png">
+                    </section>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <script src="assets/js/jquery.min.js"></script>
@@ -124,4 +140,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
